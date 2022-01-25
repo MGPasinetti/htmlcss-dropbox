@@ -10,6 +10,7 @@ html {
     line-height: 1.5;
     font-size: 12px;
     color: black;
+    overflow: hidden;
 }
 
 a {
@@ -97,6 +98,7 @@ header img {
 .main-sec {
     height: 80vh;
     padding-top: 5rem;
+    overflow-y: visible;
 }
 
 .main-sec h1 {
@@ -135,7 +137,11 @@ header img {
 
 .col-sx > a + div {
     font-size: 10px;
+    margin-bottom: 2rem;
 }
 
+.col-sx > a:last-child {
+    width: 2rem;
+}
 
 
