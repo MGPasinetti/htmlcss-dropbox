@@ -28,6 +28,7 @@ h2 {
 }
 
 h3 {
+    display: inline-block;
     font-size: 20px;
     margin-bottom: 1rem;
 }
@@ -77,7 +78,7 @@ h4 {
 .column {
     float: left;
     width: calc((100% - 7rem) / 3);
-    min-height: 800px;
+    min-height: 900px;
 }
 
 .column:nth-child(2) {
@@ -314,8 +315,20 @@ header img {
     margin-top: 3rem;
     width: 100%;
     border: 1px solid lightgrey;
-    min-height: 100px;
 }
+
+.biz-footer .btn-blue {
+    display: inline-block;
+    float: right;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.biz-footer p {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
 
 
 
