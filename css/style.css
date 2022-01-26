@@ -252,12 +252,50 @@ header img {
 }
 
 .main-col li {
-    list-style-image: url(../img/smile.svg);
     list-style-position: inside;
+    line-height: 1;
+    font-size: 10px;
+    vertical-align: middle;
 }
 
 .main-col li::marker {
-    font-size: 2rem;
+    line-height: 1;
+    font-size: 30px;
+    line-height: 1rem;
+    vertical-align: middle;
 }
+
+.main-col .user {
+    list-style-image: url(../img/user.svg);
+}
+
+.main-col .user-plus {
+    list-style-image: url(../img/user-plus.svg);
+}
+
+.main-col .folder {
+    list-style-image: url(../img/folder.svg);
+}
+
+.main-col .smile {
+    list-style-image: url(../img/smile.svg);
+}
+
+.main-col .pencil {
+    list-style-image: url(../img/pencil-alt.svg);
+}
+
+.main-col li span {
+    display: inline-block;
+    width: calc(100% - 2rem);
+    margin-left: -.5rem;
+    vertical-align: text-top;
+}
+
+.pencil::marker {
+    font-size: 1px;
+}
+
+
 
 
