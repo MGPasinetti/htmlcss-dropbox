@@ -116,6 +116,7 @@ header img {
 /* MAIN-SEC */
 .main-sec {
     height: 80vh;
+    /* min-height: 600px; */
     padding-top: 5rem;
     overflow-y: visible;
 }
@@ -166,11 +167,10 @@ header img {
 /* BUSINESS-SECTION */
 .billing {
     margin-bottom: 2rem;
+    line-height: 15px;
 }
 
-.billing svg {
-    display: inline-block;
-    height: 18px;
+.billing > span {
     vertical-align: middle;
 }
 
@@ -178,14 +178,21 @@ header img {
     margin-left: 1rem;
 }
 
-.billing span:first-child svg {
-    fill: #126CFF;
+.circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
-.billing span:last-child svg{
-    fill: lightgrey
+.circle.blue {
+    border: 4px solid #126CFF;
 }
 
+.circle.lightgrey {
+    border: 1px solid lightgrey;
+}
 
 
 
