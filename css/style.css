@@ -35,6 +35,16 @@ h2 {
     margin-bottom: 4rem;
 }
 
+h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
 /* UTILITY CLASSES */
 .clearfix::after {
     content: '';
@@ -229,6 +239,16 @@ header img {
 .header-col svg {
     height: 14px;
     vertical-align: middle;
+}
+
+.main-col {
+    padding: 1.5rem;
+}
+
+.main-col h4 + p {
+    color: grey;
+    font-size: 10px;
+    margin-bottom: 3rem;
 }
 
 
