@@ -22,14 +22,6 @@ a {
     color: black;
 }
 
-ul {
-    list-style-type: none;
-}
-
-li {
-    display: inline-block;
-}
-
 h2 {
     font-size: 30px;
     margin-bottom: 4rem;
@@ -119,6 +111,14 @@ header img {
 .nav-bar nav {
     display: inline-block;
     line-height: 18.9px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.nav-bar li {
+    display: inline-block;
 }
 
 .nav-bar nav:last-child {
@@ -251,5 +251,13 @@ header img {
     margin-bottom: 3rem;
 }
 
+.main-col li {
+    list-style-image: url(../img/smile.svg);
+    list-style-position: inside;
+}
+
+.main-col li::marker {
+    font-size: 2rem;
+}
 
 
