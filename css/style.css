@@ -10,7 +10,11 @@ html {
     line-height: 1.5;
     font-size: 12px;
     color: black;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
 }
 
 a {
@@ -24,6 +28,11 @@ ul {
 
 li {
     display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 4rem;
 }
 
 /* UTILITY CLASSES */
@@ -56,8 +65,18 @@ li {
     margin: 0 auto;
 }
 
+.centered-800 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
 /* HEADER */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 1.5rem;
 }
 
@@ -143,5 +162,30 @@ header img {
 .col-sx > a:last-child {
     width: 2rem;
 }
+
+/* BUSINESS-SECTION */
+.billing {
+    margin-bottom: 2rem;
+}
+
+.billing svg {
+    display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.billing span:last-child {
+    margin-left: 1rem;
+}
+
+.billing span:first-child svg {
+    fill: #126CFF;
+}
+
+.billing span:last-child svg{
+    fill: lightgrey
+}
+
+
 
 
