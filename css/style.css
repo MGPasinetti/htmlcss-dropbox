@@ -216,4 +216,20 @@ header img {
     min-height: 230px;
 }
 
+.header-col {
+    display: inline-block;
+    line-height: 3rem;
+    vertical-align: middle;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-col svg {
+    height: 14px;
+    vertical-align: middle;
+}
+
+
 
