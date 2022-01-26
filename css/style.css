@@ -60,6 +60,7 @@ h4 {
     color: white;
     background-color: #126CFF;
     padding: 0.3rem 1.2rem;
+    text-align: center;
 }
 
 .centered-1000 {
@@ -243,18 +244,17 @@ header img {
 
 .main-col {
     padding: 1.5rem;
+    font-size: 10px;
 }
 
 .main-col h4 + p {
     color: grey;
-    font-size: 10px;
     margin-bottom: 3rem;
 }
 
 .main-col li {
     list-style-position: inside;
     line-height: 1;
-    font-size: 10px;
     vertical-align: middle;
 }
 
@@ -295,6 +295,28 @@ header img {
 .pencil::marker {
     font-size: 1px;
 }
+
+.main-col ul {
+    margin-bottom: 3rem;
+}
+
+.main-col .btn-blue {
+    margin-bottom: 2rem;
+}
+
+.main-col span+a {
+    display: inline-block;
+    text-decoration: underline;
+    color: #126CFF;
+}
+
+.main-col > span {
+    display: inline-block;
+    width: fit-content;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgrey;
+}
+
 
 
 
