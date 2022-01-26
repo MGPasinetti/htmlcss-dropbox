@@ -71,6 +71,16 @@ h2 {
     padding-top: 10rem;
 }
 
+.column {
+    float: left;
+    width: calc((800px - 7rem) / 3);
+    min-height: 1067px;
+}
+
+.column:nth-child(2) {
+    margin: 0 3.5rem;
+}
+
 /* HEADER */
 header {
     position: fixed;
@@ -166,7 +176,7 @@ header img {
 
 /* BUSINESS-SECTION */
 .billing {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     line-height: 15px;
 }
 
@@ -174,7 +184,7 @@ header img {
     vertical-align: middle;
 }
 
-.billing span:last-child {
+.billing > span:last-child {
     margin-left: 1rem;
 }
 
@@ -194,5 +204,16 @@ header img {
     border: 1px solid lightgrey;
 }
 
+.biz-columns .column {
+    border: 1px solid lightgrey;
+}
+
+.biz-footer {
+    float: left;
+    margin-top: 3rem;
+    width: 100%;
+    border: 1px solid lightgrey;
+    min-height: 230px;
+}
 
 
