@@ -420,11 +420,6 @@ header img {
     width: 40%;
 }
 
-.logos-col.footer {
-    background-color: #B4D0E7;
-    width: 100%;
-    height: 250px;
-}
 
 .logo-container {
     z-index: -1;
@@ -495,6 +490,29 @@ header img {
 .logos-col.middle p {
     margin-bottom: 3rem;
 }
+
+.logos-col.footer {
+    background-color: #B4D0E7;
+    width: 100%;
+    height: min-content;
+    padding: 8rem 19rem;
+    color: #61082B;
+    margin-bottom: 8rem;
+}
+
+.logos-col.footer h2 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.logos-col.footer a {
+    background-color: white;
+    display: block;
+    float: right;
+    padding: 0.3rem 3.5rem;
+}
+
+
 
 
 
