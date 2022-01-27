@@ -425,6 +425,8 @@ header img {
 }
 
 .logo-container {
+    z-index: -1;
+    position: relative;
     width: 50%;
     float: left;
     height: 50%;
@@ -432,6 +434,7 @@ header img {
 
 .logo-container.designit {
     background-color: #A2D39B;
+    border: .7em solid #D0E9CD;
 }
 
 .logo-container.asu {
@@ -462,6 +465,22 @@ header img {
     background-color: #FFD830;
 }
 
+.logo-container img {
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.logos-col.middle {
+    padding: 3rem;
+}
+
+.logos-col.middle img {
+    width: 100px;
+}
 
 
 
