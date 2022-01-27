@@ -73,7 +73,7 @@ h4 {
 .centered-65 {
     max-width: 65%;
     margin: 0 auto;
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 .column {
@@ -497,7 +497,6 @@ header img {
     height: min-content;
     padding: 8rem 19rem;
     color: #61082B;
-    margin-bottom: 8rem;
 }
 
 .logos-col.footer h2 {
@@ -511,6 +510,36 @@ header img {
     float: right;
     padding: 0.3rem 3.5rem;
 }
+
+/* FAQ-SECTION */
+.faqs-container {
+    border-top: 1px solid lightgrey;
+    margin-bottom: 8rem;
+}
+
+.faq {
+    line-height: 22.9px;
+    padding: 2.5rem 3rem 2.5rem 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.faq h4 {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+
+.faq a {
+    font-size: 20px;
+    display: block;
+    float: right;
+}
+
+.faq i {
+    vertical-align: middle;
+}
+
 
 
 
