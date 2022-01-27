@@ -15,6 +15,7 @@ html {
 
 body {
     position: relative;
+    margin-top: 57.3px;
 }
 
 a {
@@ -92,6 +93,8 @@ header {
     left: 0;
     right: 0;
     padding: 1.5rem;
+    min-width: 1280px;
+    height: 57.3px;
 }
 
 header > * {
@@ -137,14 +140,14 @@ header img {
 
 /* MAIN-SEC */
 .main-sec {
-    height: 90vh;
-    /* min-height: 600px; */
-    padding: 10rem;
+    height: 48rem;
+    padding: 6rem 10rem;
     overflow-y: visible;
+    overflow-block: visible;
 }
 
 .main-sec h1 {
-    font-size: 57px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 1.4;
     margin-bottom: 2rem;
@@ -157,7 +160,7 @@ header img {
 .col-sx {
     float: left;
     width: 30%;
-    margin-right: 4rem;
+    margin-right: 5rem;
     vertical-align: top;
 }
 
@@ -186,6 +189,11 @@ header img {
 
 .col-sx > a:last-child {
     width: 2rem;
+}
+
+/* BIG-SEC */
+.big-sec {
+    margin-top: 5rem;
 }
 
 /* BIZ-SECTION */
@@ -381,6 +389,40 @@ header img {
     margin-bottom: 6rem;
 }
 
+/* 500.000-TEAM-SEC */
+.teams-sec h2 {
+    margin-bottom: 1.5rem;
+}
+
+.teams-sec a {
+    color: #126CFF;
+    text-decoration:underline;
+}
+
+.teams-sec {
+    margin-bottom: 3rem;
+}
+
+/* PARTNERS-LOGOS-SECTION */
+.logos-col {
+    float: left;
+    height: 30em;
+}
+
+.logos-col.side {
+    background-color: blue;
+    width: 30%;
+}
+
+.logos-col.middle {
+    background-color: yellow;
+    width: 40%;
+}
+
+.logos-col.footer {
+    background-color: yellowgreen;
+    width: 100%;
+}
 
 
 
