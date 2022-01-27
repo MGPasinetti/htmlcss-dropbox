@@ -578,13 +578,14 @@ footer ul a {
 
 .hr-white {
     width: 8rem;
-    height: 8rem;
+    height: 6rem;
     border-bottom: 1px solid white;
     margin-bottom: 3rem;
 }
 
 .lang {
     color: grey;
+    font-size: 10px;
 }
 
 
