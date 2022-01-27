@@ -81,7 +81,7 @@ h4 {
     min-height: 900px;
 }
 
-.column:nth-child(2) {
+.center-col {
     margin: 0 3.5rem;
 }
 
@@ -337,6 +337,10 @@ header img {
 }
 
 /* PARTNER-CONTACTS-SECTION */
+.partner-cont-sec {
+    margin-bottom: 4rem;
+}
+
 .partner-cont-sec img {
     width: 55%;
 
@@ -357,6 +361,24 @@ header img {
 .text-col a {
     border: .5px solid black;
     padding: .5rem 1rem;
+}
+
+/* OFFERS-SECTION */
+.column > img {
+    width: 100%;
+}
+
+.offers-sec .column {
+    min-height: min-content;
+    margin-bottom: 5rem;
+}
+
+.offers-sec p>span {
+    text-decoration: underline;
+}
+
+.offers-sec {
+    margin-bottom: 6rem;
 }
 
 
