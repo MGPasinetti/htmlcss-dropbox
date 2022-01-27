@@ -70,6 +70,13 @@ h4 {
     margin: 0 auto;
 }
 
+.centered-75 {
+    width: 75%;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
 .centered-65 {
     max-width: 65%;
     margin: 0 auto;
@@ -79,7 +86,7 @@ h4 {
 .column {
     float: left;
     width: calc((100% - 7rem) / 3);
-    min-height: 900px;
+    min-height: 65em;
 }
 
 .center-col {
@@ -229,6 +236,10 @@ header img {
 }
 
 /* BIZ-COLUMNS */
+.column.left {
+
+}
+
 .biz-columns .column {
     border: 1px solid lightgrey;
 }
@@ -538,6 +549,42 @@ header img {
 
 .faq i {
     vertical-align: middle;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: min-content;
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 5.4rem;
+    line-height: 2;
+}
+
+footer ul h3 {
+    font-size: 15px;
+}
+
+footer ul a {
+    color: white;
+    font-size: 11px;
+}
+
+.hr-white {
+    width: 8rem;
+    height: 8rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 3rem;
+}
+
+.lang {
+    color: grey;
 }
 
 
