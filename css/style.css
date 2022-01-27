@@ -124,6 +124,8 @@ header img {
 
 .nav-bar li {
     display: inline-block;
+    margin-right: 3rem;
+    vertical-align: sub;
 }
 
 .nav-bar nav:last-child {
@@ -133,9 +135,9 @@ header img {
     margin-right: -3rem;
 } 
 
-.nav-bar li {
-    margin-right: 3rem;
-    vertical-align: sub;
+.nav-bar a:hover {
+    line-height: 18.9px;
+    border-bottom: 1px solid black;
 }
 
 /* MAIN-SEC */
@@ -475,12 +477,30 @@ header img {
 }
 
 .logos-col.middle {
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .logos-col.middle img {
+    position: relative;
     width: 100px;
 }
+
+.logos-col.middle img + div {
+    width: 3rem;
+    height: 2rem;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 3.5rem;
+}
+
+.logos-col.middle p {
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
 
 
 
