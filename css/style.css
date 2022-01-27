@@ -406,22 +406,60 @@ header img {
 /* PARTNERS-LOGOS-SECTION */
 .logos-col {
     float: left;
-    height: 30em;
+    height: 384px;
 }
 
 .logos-col.side {
-    background-color: blue;
     width: 30%;
 }
 
 .logos-col.middle {
-    background-color: yellow;
+    background-color: #F5F5F5;
     width: 40%;
 }
 
 .logos-col.footer {
-    background-color: yellowgreen;
+    background-color: #B4D0E7;
     width: 100%;
+    height: 250px;
+}
+
+.logo-container {
+    width: 50%;
+    float: left;
+    height: 50%;
+}
+
+.logo-container.designit {
+    background-color: #A2D39B;
+}
+
+.logo-container.asu {
+    background-color: #61082B;
+}
+
+.logo-container.uf {
+    background-color: #0093CE;
+}
+
+.logo-container.topps {
+    background-color: #FF2E2E;
+}
+
+.logo-container.wbr {
+    background-color: #D5001F;
+}
+
+.logo-container.hearst {
+    background-color: #B4D0E7;
+}
+
+.logo-container.lp {
+    background-color: #0D2481;
+}
+
+.logo-container.cco {
+    background-color: #FFD830;
 }
 
 
