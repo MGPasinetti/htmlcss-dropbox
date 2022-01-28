@@ -593,6 +593,10 @@ footer ul a {
     font-size: 11px;
 }
 
+footer ul a:hover {
+    border-bottom: 1px solid white;
+}
+
 .hr-white {
     width: 8rem;
     height: 6rem;
@@ -600,7 +604,7 @@ footer ul a {
     margin-bottom: 3rem;
 }
 
-.lang {
+.lang a {
     color: grey;
     font-size: 10px;
 }
