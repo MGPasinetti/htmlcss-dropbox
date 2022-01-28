@@ -563,6 +563,7 @@ header .btn-blue {
 }
 
 .faq {
+    display: inline-block;
     line-height: 22.9px;
     padding: 2.5rem 3rem 2.5rem 0;
     border-bottom: 1px solid lightgrey;
@@ -575,13 +576,13 @@ header .btn-blue {
     margin-bottom: 0;
 }
 
-.faq a {
-    font-size: 20px;
+.faq > a {
     display: block;
     float: right;
 }
 
 .faq i {
+    font-size: 20px;
     vertical-align: middle;
 }
 
