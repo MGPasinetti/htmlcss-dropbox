@@ -563,7 +563,7 @@ header .btn-blue {
 }
 
 .faq {
-    display: inline-block;
+    width: 100%;
     line-height: 22.9px;
     padding: 2.5rem 3rem 2.5rem 0;
     border-bottom: 1px solid lightgrey;
@@ -576,15 +576,38 @@ header .btn-blue {
     margin-bottom: 0;
 }
 
-.faq > a {
-    display: block;
-    float: right;
-}
-
 .faq i {
+    float: right;
     font-size: 20px;
     vertical-align: middle;
+    line-height: 22.9px;
 }
+
+.faq.small {
+    display: inline-block;
+}
+
+.faq.answer-faq {
+    display: none;
+}
+
+.answer-faq p {
+    width: 88%;
+    font-size: 12px;
+    margin-top: 1rem;
+    color: #b7b6b6;
+    line-height: 1.3;
+}
+
+.faq.small:hover {
+    display: none;
+}
+
+.faq.answer-faq:hover {
+    display: inline-block;
+}
+
+
 
 /* FOOTER */
 footer {
