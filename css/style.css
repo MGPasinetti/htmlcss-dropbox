@@ -96,12 +96,11 @@ h4 {
 /* HEADER */
 header {
     position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
-    padding: 1.5rem;
     min-width: 1280px;
-    height: 57.3px;
 }
 
 header > * {
@@ -111,28 +110,40 @@ header > * {
 header img {
     display: inline-block;
     width: 8rem;
-    vertical-align: middle;
     margin-right: 3rem;
+    vertical-align: middle;
+}
+
+header a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 4.5rem;
 }
 
 .nav-bar {
     width: calc(100% - 8rem - 3rem);
     position: relative;
+    line-height: 4.5rem;
+    vertical-align: middle;
 }
 
 .nav-bar nav {
     display: inline-block;
-    line-height: 18.9px;
+    line-height: 4.5rem;
+    vertical-align: middle;
 }
 
 .nav-bar ul {
     list-style-type: none;
+    line-height: 4.5rem;
+    vertical-align: middle;
 }
 
 .nav-bar li {
     display: inline-block;
     margin-right: 3rem;
-    vertical-align: sub;
+    line-height: 4.5rem;
+    vertical-align: middle;
 }
 
 .nav-bar nav:last-child {
@@ -140,10 +151,11 @@ header img {
     top: 0;
     right: 0;
     margin-right: -3rem;
+    line-height: 4.5rem;
+    vertical-align: middle;
 } 
 
 .nav-bar a:hover {
-    line-height: 18.9px;
     border-bottom: 1px solid black;
 }
 
