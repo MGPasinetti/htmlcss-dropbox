@@ -15,12 +15,17 @@ html {
 
 body {
     position: relative;
-    margin-top: 57.3px;
+    margin-top: 55.5px;
+    background-color: royalblue;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 h2 {
@@ -59,10 +64,17 @@ h4 {
 }
 
 .btn-blue {
+    display: inline;
+    text-decoration: none;
     color: white;
     background-color: #126CFF;
     padding: 0.3rem 1.2rem;
     text-align: center;
+}
+
+.btn-blue:hover {
+    background-color: #3b85ff;
+    text-decoration: none;
 }
 
 .centered-90 {
@@ -101,62 +113,47 @@ header {
     left: 0;
     right: 0;
     min-width: 1280px;
-}
-
-header > * {
-    float: left;
-}
-
-header img {
-    display: inline-block;
-    width: 8rem;
-    margin-right: 3rem;
-    vertical-align: middle;
-}
-
-header a {
-    display: inline-block;
-    vertical-align: middle;
     line-height: 4.5rem;
+    height: 55.5px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.5);
 }
 
 .nav-bar {
-    width: calc(100% - 8rem - 3rem);
-    position: relative;
-    line-height: 4.5rem;
-    vertical-align: middle;
+    width: calc(100% - 3rem);
+    margin: 0 auto;
 }
 
-.nav-bar nav {
-    display: inline-block;
-    line-height: 4.5rem;
-    vertical-align: middle;
+nav:first-child ul {
+    float: left;
+}
+
+nav:last-child ul {
+    float: right;
+    margin-right: -3rem;
 }
 
 .nav-bar ul {
+    display: inline-block;
     list-style-type: none;
-    line-height: 4.5rem;
-    vertical-align: middle;
 }
 
 .nav-bar li {
     display: inline-block;
     margin-right: 3rem;
-    line-height: 4.5rem;
+}
+
+header a {
+    display: inline-block;
     vertical-align: middle;
 }
 
-.nav-bar nav:last-child {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: -3rem;
-    line-height: 4.5rem;
-    vertical-align: middle;
-} 
+header img {
+    width: 8rem;
+    vertical-align: text-bottom;
+}
 
-.nav-bar a:hover {
-    border-bottom: 1px solid black;
+.nav-bar .border-hover:hover {
+    border-bottom: 2px solid black;
 }
 
 /* MAIN-SEC */
