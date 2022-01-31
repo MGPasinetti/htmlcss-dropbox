@@ -181,11 +181,14 @@ nav .border-hover:hover {
 nav .sub-nav {
     display: none;
     float: none;
-    position: absolute;
+    position: fixed;
     top: 54px;
     left: 840px;
     background-color: white;
     line-height: 3;
+    border: 1px solid rgba(211, 211, 211, 0.5);
+    border-top: 0;
+    z-index: 1;
 }
 
 .sub-nav li {
@@ -201,11 +204,12 @@ nav .sub-nav {
 }
 
 .sub-nav li:hover {
-    background-color: lightgrey;
+    background-color: rgb(233, 233, 233);
 }
 
-.sub-nav-btn:hover .sub-nav {
-    display: fixed;
+nav .sub-nav-btn:hover .sub-nav { /* sistema hover */
+    display: block;
+    position: fixed;
 }
 
 /* MAIN-SEC */
@@ -559,7 +563,7 @@ nav .sub-nav {
     margin-bottom: 3rem;
     width: 100%;
     height: 90px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .logos-col.footer {
@@ -677,16 +681,3 @@ footer ul a:hover {
     color: grey;
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
