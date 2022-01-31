@@ -177,6 +177,37 @@ nav .border-hover:hover {
     margin-bottom: 2.5px;
 }
 
+/* SUB-NAV */
+nav .sub-nav {
+    display: none;
+    float: none;
+    position: absolute;
+    top: 54px;
+    left: 840px;
+    background-color: white;
+    line-height: 3;
+}
+
+.sub-nav li {
+    display: block;
+    height: min-content;
+    padding: .3rem 2rem;
+    margin: 0;
+    background-color: white;
+}
+
+.sub-nav a {
+ height: min-content;
+}
+
+.sub-nav li:hover {
+    background-color: lightgrey;
+}
+
+.sub-nav-btn:hover .sub-nav {
+    display: fixed;
+}
+
 /* MAIN-SEC */
 .main-sec {
     height: 48rem;
@@ -450,23 +481,25 @@ nav .border-hover:hover {
 .logos-col {
     float: left;
     height: 384px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .logos-col.side {
-    width: 30%;
+    width: 30vw;
+    height: 30vh;
 }
 
 .logos-col.middle {
     background-color: #F5F5F5;
-    width: 40%;
+    width: 40vw;
+    height: 30vw;
 }
 
 .logo-container {
     z-index: -1;
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 15vw;
+    height: 15vw;
     float: left;
 }
 
