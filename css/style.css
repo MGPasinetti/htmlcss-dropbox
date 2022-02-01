@@ -88,7 +88,7 @@ h4 {
 .centered-65 {
     max-width: 65%;
     margin: 0 auto;
-    padding-top: 8rem;
+    padding: 8rem 2rem 0;
 }
 
 .column {
@@ -181,14 +181,19 @@ nav .border-hover:hover {
 nav .sub-nav {
     display: none;
     float: none;
-    position: fixed;
-    top: 54px;
-    left: 840px;
+    position: relative;
+    top: 0;
+    left: 6rem;
     background-color: white;
     line-height: 3;
     border: 1px solid rgba(211, 211, 211, 0.5);
     border-top: 0;
     z-index: 1;
+    white-space: nowrap;
+}
+
+.sub-nav-btn {
+    width: 53px;
 }
 
 .sub-nav li {
@@ -207,9 +212,8 @@ nav .sub-nav {
     background-color: rgb(233, 233, 233);
 }
 
-nav .sub-nav-btn:hover .sub-nav { /* sistema hover */
+nav .sub-nav-btn:hover .sub-nav { 
     display: block;
-    position: fixed;
 }
 
 /* MAIN-SEC */
